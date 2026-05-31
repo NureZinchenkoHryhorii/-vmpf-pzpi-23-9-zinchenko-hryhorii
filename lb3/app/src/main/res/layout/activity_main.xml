@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Каталог товарів"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLaptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ноутбук - 30000 грн" />
+
+    <Button
+        android:id="@+id/btnMouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Миша - 1000 грн" />
+
+    <Button
+        android:id="@+id/btnKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Клавіатура - 2000 грн" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кошик"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кошик порожній" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Очистити кошик" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Оформити замовлення" />
+
+</LinearLayout>
